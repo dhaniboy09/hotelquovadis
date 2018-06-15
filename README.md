@@ -1,1 +1,1 @@
-# hotelquovadis
+# Hotel Quo Vadis
