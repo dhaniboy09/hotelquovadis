@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import cloudinary
+from configparser import RawConfigParser
+
+# Read secret variables
+config = RawConfigParser()
+config.read('/etc/quovadis/settings.ini')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,10 +33,18 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Cloudinary Configuration
+cloudinary.config(
+    cloud_name=config.get('cloudinary', 'CLOUDINARY_CLOUD_NAME'),
+    api_key=config.get('cloudinary', 'CLOUDINARY_API_KEY'),
+    api_secret=config.get('cloudinary', 'CLOUDINARY_API_SECRET')
+)
 
 # Application definition
 
 INSTALLED_APPS = [
+    'quovadisapp.apps.QuovadisappConfig',
+    'cloudinary',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -75,9 +89,17 @@ WSGI_APPLICATION = 'quovadisproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config.get('database', 'DATABASE_NAME'),
+        'USER': config.get('database', 'DATABASE_USER'),
+        'PASSWORD': config.get('database', 'DATABASE_PASSWORD'),
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
 }
 
 
