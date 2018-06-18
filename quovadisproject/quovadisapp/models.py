@@ -10,7 +10,7 @@ class Room(models.Model):
     description = models.TextField(max_length=500)
     price = models.IntegerField(default=0)
     services = ArrayField(models.CharField(max_length=100, blank=True))
-    primary_image = CloudinaryField('image')
+    primary_image = CloudinaryField('image', default="img/logo.png")
 
     def __str__(self):
         return "%s" % (self.name)
@@ -24,7 +24,7 @@ class RoomImage(models.Model):
 class Activity(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(max_length=500)
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', default="img/logo.png")
 
     def __str__(self):
         return "%s" % (self.name)
