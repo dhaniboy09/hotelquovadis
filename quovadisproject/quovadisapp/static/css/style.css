@@ -2195,6 +2195,7 @@ i:before {
 ============================================================================================ */
 .introduction_area {
   padding-bottom: 100px;
+  padding-top: 80px;
   overflow: hidden;
 }
 
@@ -3319,7 +3320,7 @@ i:before {
 
 .our_service_area:before {
   content: "";
-  background: rgba(40, 38, 42, 0.94);
+  background: rgba(40, 38, 42, 0.9);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -5231,10 +5232,17 @@ i:before {
 /* Banner Area css
 ============================================================================================ */
 .banner_area {
-  background: url(../img/banner/blog-banner-bg.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 2;
+}
+
+.about-banner {
+    background: url(../img/about-banner.jpg) no-repeat scroll center center;
+}
+
+.restaurant-banner {
+    background: url(../img/restaurant-banner.jpg) no-repeat scroll center center;
 }
 
 .banner_area:before {
