@@ -113,6 +113,17 @@
         top: 12px;
     }
 }
+@media(max-width: 1024px){
+    .get_contact_inner .left_ex_title{
+        position: relative;
+        top: 17px;
+    }
+}
+@media(min-width: 1024px){
+    .get_contact_inner .left_ex_title{
+        top: 170px;
+    }
+}
 @media(max-width: 991px){
     .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
         height: 70px;
@@ -583,6 +594,7 @@
     }
 }
 @media(max-width: 767px){
+
     .right_event{
         max-width: 370px;
         margin: auto;

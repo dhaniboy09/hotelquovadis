@@ -1,10 +1,28 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, get_object_or_404
+from .models import SliderImage, Activity
 # Create your views here.
 
 
 def index(request):
-    return render(request, 'quovadisapp/index.html')
+    images = SliderImage.objects.all()
+    main_image = None
+    for image in images:
+        if image.tag == 'main':
+            main_image = image
+            images = SliderImage.objects.exclude(tag='main')
+            break
+
+    context = {
+        "main_image": main_image,
+        "secondary_images": images
+    }
+    return render(request, 'quovadisapp/index.html', context)
+
+
+def activities(request):
+    activities = Activity.objects.all()
+    context = {"activities": activities}
+    return render(request, 'quovadisapp/activities.html', context)
 
 
 def rooms(request):
@@ -26,6 +44,3 @@ def contact(request):
 def about(request):
     return render(request, 'quovadisapp/about.html')
 
-
-def activities(request):
-    return render(request, 'quovadisapp/activities.html')

@@ -4,21 +4,31 @@ from django.db import models
 from cloudinary.models import CloudinaryField
 
 
-# Create your models here.
 class Room(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(max_length=500)
     price = models.IntegerField(default=0)
     services = ArrayField(models.CharField(max_length=100, blank=True))
-    primary_image = CloudinaryField('image', default="img/logo.png")
 
     def __str__(self):
         return "%s" % (self.name)
 
 
 class RoomImage(models.Model):
+    tag = models.CharField(max_length=100)
     image = CloudinaryField('image')
     room = models.ForeignKey(Room, on_delete=models.CASCADE)
+
+    def primary_image(self, image):
+        pass
+
+
+class SliderImage(models.Model):
+    tag = models.CharField(max_length=100)
+    image = CloudinaryField('image')
+
+    def __str__(self):
+        return "%s" % (self.tag)
 
 
 class Activity(models.Model):

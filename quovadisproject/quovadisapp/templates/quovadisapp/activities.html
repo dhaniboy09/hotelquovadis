@@ -1,5 +1,8 @@
 {% extends 'quovadisapp/layout/base.html' %}
 {% load static %}
+{% load cloudinary %}
+{% load quovadis_extras %}
+
 {% block content %} 
     <body>
 
@@ -35,108 +38,124 @@
         
         <!--================Activities Area =================-->
         <section class="activities_area">
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                        <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/arts.jpg' %}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="activities_content">
-                                <h4>Arts & Craft <span>Village</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                       <div class="col-md-6">
-                            <div class="activities_content left_activities">
-                                <h4>IBB <span>golf course</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/golf.jpg' %}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                       <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/zuma-rock.jpg' %}" alt="">
-                            </a>
-                        </div>
-                       <div class="col-md-6">
-                            <div class="activities_content">
-                                <h4>Zuma <span>Rock</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
+            {% for activity in activities %}
+                <div class="activities_item_inner">
+                    <div class="container">
+                        <div class="row activities_item_row">
+                            {% if forloop.counter|even_or_odd %}
+                                <div class="col-md-6">
+                                    <a href="activities.html" class="activities_img">
+                                        <img src="{{ activity.image.url }}" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="activities_content">
+                                        <h4>{{ activity.name|split_black }} <span>{{ activity.name|split_yellow }}</span></h4>
+                                        <p>{{ activity.description }}</p>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div class="col-md-6">
+                                    <div class="activities_content left_activities">
+                                        <h4>{{ activity.name|split_black }} <span>{{ activity.name|split_yellow }}</span></h4>
+                                        <p>{{ activity.description }}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="activities.html" class="activities_img">
+                                        <img src="{{ activity.image.url }}" alt="">
+                                    </a>
+                                </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                       <div class="col-md-6">
-                            <div class="activities_content left_activities">
-                                <h4>National <span>Mosque</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/mosque.jpg' %}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                       <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/millenium-park.jpg' %}" alt="">
-                            </a>
-                        </div>
-                       <div class="col-md-6">
-                            <div class="activities_content">
-                                <h4>Millenium <span>Park</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="activities_item_inner">
-                <div class="container">
-                    <div class="row activities_item_row">
-                       <div class="col-md-6">
-                            <div class="activities_content left_activities">
-                                <h4>Jabi <span>Lake</span></h4>
-                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="activities.html" class="activities_img">
-                                <img src="{% static 'img/jabi-lake.jpg' %}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{#                <div class="activities_item_inner">#}
+{#                    <div class="container">#}
+{#                        <div class="row activities_item_row">#}
+{#                            <div class="col-md-6">#}
+{#                                <div class="activities_content left_activities">#}
+{#                                    <h4>IBB <span>golf course</span></h4>#}
+{#                                    <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                            <div class="col-md-6">#}
+{#                                <a href="activities.html" class="activities_img">#}
+{#                                    <img src="{% static 'img/golf.jpg' %}" alt="">#}
+{#                                </a>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+            {% endfor %}
+{#            <div class="activities_item_inner">#}
+{#                <div class="container">#}
+{#                    <div class="row activities_item_row">#}
+{#                       <div class="col-md-6">#}
+{#                            <a href="activities.html" class="activities_img">#}
+{#                                <img src="{% static 'img/zuma-rock.jpg' %}" alt="">#}
+{#                            </a>#}
+{#                        </div>#}
+{#                       <div class="col-md-6">#}
+{#                            <div class="activities_content">#}
+{#                                <h4>Zuma <span>Rock</span></h4>#}
+{#                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="activities_item_inner">#}
+{#                <div class="container">#}
+{#                    <div class="row activities_item_row">#}
+{#                       <div class="col-md-6">#}
+{#                            <div class="activities_content left_activities">#}
+{#                                <h4>National <span>Mosque</span></h4>#}
+{#                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div class="col-md-6">#}
+{#                            <a href="activities.html" class="activities_img">#}
+{#                                <img src="{% static 'img/mosque.jpg' %}" alt="">#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="activities_item_inner">#}
+{#                <div class="container">#}
+{#                    <div class="row activities_item_row">#}
+{#                       <div class="col-md-6">#}
+{#                            <a href="activities.html" class="activities_img">#}
+{#                                <img src="{% static 'img/millenium-park.jpg' %}" alt="">#}
+{#                            </a>#}
+{#                        </div>#}
+{#                       <div class="col-md-6">#}
+{#                            <div class="activities_content">#}
+{#                                <h4>Millenium <span>Park</span></h4>#}
+{#                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="activities_item_inner">#}
+{#                <div class="container">#}
+{#                    <div class="row activities_item_row">#}
+{#                       <div class="col-md-6">#}
+{#                            <div class="activities_content left_activities">#}
+{#                                <h4>Jabi <span>Lake</span></h4>#}
+{#                                <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div class="col-md-6">#}
+{#                            <a href="activities.html" class="activities_img">#}
+{#                                <img src="{% static 'img/jabi-lake.jpg' %}" alt="">#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
         </section>
         <!--================End Activities Area =================-->
         
