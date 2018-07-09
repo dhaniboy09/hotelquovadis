@@ -33,7 +33,7 @@
                                 </li>
                                 <li><a href="{% url 'quovadisapp:rooms' %}">Rooms</a></li>
                                 <li><a href="{% url 'quovadisapp:activities' %}">Activities</a></li>
-                                <li><a href="{% url 'quovadisapp:restaurant' %}">VII Bistro</a></li>
+                                <li><a href="{% url 'quovadisapp:restaurant' %}">Restaurant &amp; Bar</a></li>
                                 <li><a href="{% url 'quovadisapp:about' %}">About</a></li>
                                 <li><a href="{% url 'quovadisapp:contact' %}">Contact</a></li>
                             </ul>
@@ -72,14 +72,14 @@
                          data-description=""
                     >
                     <!-- MAIN IMAGE -->
-                    <img src="{{ main_image.image.url }}"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="{{ main_image.image.url }}"  class="image" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 
                         <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
                             <div class="tp-caption tp-resizeme first_text" 
                             id="slide-1586-layer-1" 
-                            data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
-                            data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
+                            data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']"
                             data-fontsize="['55','55','55','40','25']"
                             data-lineheight="['59','59','59','50','35']"
                             data-width="['550','550','550','550','300']"
@@ -88,12 +88,12 @@
                             data-type="text" 
                             data-responsive_offset="on" 
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                            data-textAlign="['left','left','left','left']">Spend Quality Holidays With Us </div>
+                            data-textAlign="['left','left','left','left']">{{ main_image.text }} </div>
                             
                             <div class="tp-caption tp-resizeme secand_text" 
                                 id="slide-1587-layer-2" 
                                 data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
-                                data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
+                                data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"
                                 data-fontsize="['18','18','18','18','16']"
                                 data-lineheight="['26','26','26','26']"
                                 data-width="['550','550','550','550','300']"
@@ -102,13 +102,15 @@
                                 data-type="text" 
                                 data-responsive_offset="on"
                                 data-transform_idle="o:1;"
-                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">Lorem Ipsum is simply text of the Lorem Ipsum is  simply my text of the printing and Ipsum is simply.
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            >
+                              {{ main_image.sub_text }}
                             </div>
                             
                             <div class="tp-caption tp-resizeme slider_button" 
                                 id="slide-1588-layer-3" 
                                 data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
-                                data-y="['top','top','top','top']" data-voffset="['525','525','525','425','330']" 
+                                data-y="['top','top','top','top']" data-voffset="['525','525','525','425','330']"
                                 data-fontsize="['14','14','14','14']"
                                 data-lineheight="['46','46','46','46']"
                                 data-width="none"
@@ -169,7 +171,7 @@
                             data-type="text"
                             data-responsive_offset="on"
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                            data-textAlign="['left','left','left','left']">Explore & Enjoy <br /> With HillTown Resort</div>
+                            data-textAlign="['left','left','left','left']">{{ item.text }}</div>
 
                             <div class="tp-caption tp-resizeme secand_text"
                                 id="slide-1590-layer-2"
@@ -183,7 +185,9 @@
                                 data-type="text"
                                 data-responsive_offset="on"
                                 data-transform_idle="o:1;"
-                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">Slope mornings are excellent… particularly in case you're awakening in one of our lodging's refined rooms!
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            >
+                                {{ item.sub_text }}
                             </div>
 
                             <div class="tp-caption tp-resizeme slider_button"
@@ -216,11 +220,18 @@
                         <div class="introduction_left_text">
                             <div class="intro_title">
                                 <h2>Welcome to <span>Hotel Quo Vadis</span></h2>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                <p>Quo Vadis is a Latin phrase meaning, "Where are you going?"</p>
                             </div>
-                            <h4>We are Available for business</h4>
-                            <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exerci-tationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi con-sequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                            <a class="about_btn_b" href="#">More About us</a>
+                            <p style="line-height: 28px">
+                                The answer to that question should be nothing other than…<strong>Hotel Quo Vadis</strong>!
+                                We are an ultra-modern,&nbsp;quaint, luxurious boutique hotel in Abuja, Nigeria offering
+                                19 guest rooms and suites to the discerning business or leisure traveller.
+                                Our convenient location within the heart of the City is both ideal and safe, with our
+                                focus being the comfort and enjoyment of our guests.
+{#                            </p>\r\n<p>\r\n	At Hotel Quo Vadis, you can expect</p>\r\n<ul>\r\n	<li>\r\n		Free WI-FI (high speed)</li>\r\n	<li>\r\n		Air Conditioning in all rooms and corridors</li>\r\n	<li>\r\n		Friendly and helpful staff</li>\r\n	<li>\r\n		Airport drop/pickup</li>\r\n	<li>\r\n		A fully equipped meeting room</li>\r\n	<li>\r\n		Complete bouquet DSTV Channels&nbsp;</li>\r\n	<li>\r\n		Day pass access to our partner Gym &amp; Spa</li>\r\n</ul>\r\n', NULL, 1, 0, 1, 0, 'Hotel in Abuja | Hotels in Wuse | Hotel Quo Vadis', #}
+{#                                'Hotel Quo Vadis is an ultra-modern, quaint, luxurious boutique hotel in Abuja, Our convenient location within the heart of the City is both ideal and safe#}
+                            </p>
+                            <a class="about_btn_b" href="{% url 'quovadisapp:about' %}">View More</a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -239,12 +250,12 @@
                 <div class="explor_title row m0">
                     <div class="pull-left">
                         <div class="left_ex_title">
-                            <h2>Explor Our <span>rooms</span></h2>
+                            <h2>Explore Our <span>rooms</span></h2>
                             <p>choose room according to budget</p>
                         </div>
                     </div>
                     <div class="pull-right">
-                        <a class="about_btn_b" href="#">view all rooms</a>
+                        <a class="about_btn_b" href="{% url 'quovadisapp:rooms' %}">view all rooms</a>
                     </div>
                 </div>
                 <div class="row explor_room_item_inner">
@@ -328,30 +339,31 @@
                 <div class="row our_service_inner">
                     <div class="col-md-3 col-sm-6">
                         <div class="our_service_first">
-                            <h3>our services</h3>
-                            <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-                            <a class="all_s_btn" href="#">view all services</a>
+                            <h3>Why us?</h3>
+                            <p>At Hotel Quo Vadis, you can expect nothing short of world class service.
+                                Our rooms are state-of-the-art, equipped with luxury furniture, premium cable TV and much more. </p>
+                            <a class="all_s_btn" href="{% url 'quovadisapp:about' %}">view more</a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="our_service_item">
                             <i class="flaticon-wifi"></i>
                             <h4>Free wifi</h4>
-                            <p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+                            <p>You'll enjoy free High speed WiFi. We hate to brag but it's one of the best in the City</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="our_service_item">
                             <i class="flaticon-toaster"></i>
                             <h4>Breakfast</h4>
-                            <p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+                            <p>Complementary breakfast to our esteemed guests. Enjoy free breakfast prepared by world-class chefs</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="our_service_item">
                             <i class="flaticon-taxi"></i>
-                            <h4>Breakfast</h4>
-                            <p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+                            <h4>Car Rental</h4>
+                            <p>Need to get around the city? Or Need a ride to or from the airport? We've got you covered.</p>
                         </div>
                     </div>
                 </div>
@@ -415,7 +427,12 @@
                     <div class="col-md-7">
                         <div class="input-group">
                             <span class="input-group-btn">
-                                <button class="btn btn-default submit_btn" type="button">Contact Us</button>
+                                <a class="btn btn-default submit_btn"
+                                   href="{% url 'quovadisapp:contact' %}"
+                                   type="button"
+                                >
+                                    Contact Us
+                                </a>
                             </span>
                         </div>
                     </div>

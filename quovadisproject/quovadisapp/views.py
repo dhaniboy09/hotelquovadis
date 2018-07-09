@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404
-from .models import SliderImage, Activity
+from .models import SliderImage, Activity, Service
+
+
 # Create your views here.
 
 
@@ -17,6 +19,16 @@ def index(request):
         "secondary_images": images
     }
     return render(request, 'quovadisapp/index.html', context)
+
+
+def about(request):
+    services = Service.objects.all()
+    if len(services) > 8:
+        services = services[:8]
+
+    context = {"services": services}
+
+    return render(request, 'quovadisapp/about.html', context)
 
 
 def activities(request):
@@ -40,7 +52,4 @@ def restaurant(request):
 def contact(request):
     return render(request, 'quovadisapp/contact.html')
 
-
-def about(request):
-    return render(request, 'quovadisapp/about.html')
 

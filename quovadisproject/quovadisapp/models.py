@@ -26,6 +26,8 @@ class RoomImage(models.Model):
 class SliderImage(models.Model):
     tag = models.CharField(max_length=100)
     image = CloudinaryField('image')
+    text = models.CharField(max_length=200, default="Welcome to Quo Vadis")
+    sub_text = models.TextField(max_length=300, default="Luxury Boutique Hotel")
 
     def __str__(self):
         return "%s" % (self.tag)
