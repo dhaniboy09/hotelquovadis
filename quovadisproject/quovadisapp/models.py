@@ -17,9 +17,12 @@ class Room(models.Model):
 class RoomImage(models.Model):
     tag = models.CharField(max_length=100)
     image = CloudinaryField('image')
-    room = models.ForeignKey(Room, on_delete=models.CASCADE)
+    room = models.ForeignKey(Room, on_delete=models.CASCADE, related_name="images")
 
-    def primary_image(self, image):
+    def primary_image(self):
+        pass
+
+    def gallery_image(self):
         pass
 
 

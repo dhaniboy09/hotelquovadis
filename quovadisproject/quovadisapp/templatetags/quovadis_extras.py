@@ -19,3 +19,13 @@ def split_yellow(value):
 @register.filter
 def even_or_odd(num):
     return not num % 2 == 0
+
+
+@register.filter
+def slice_service(service, idx):
+    return service[idx]
+
+
+@register.filter
+def format_price(price):
+    return '{:0,.0f}'.format(price)

@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import SliderImage, Activity, Service
+from .models import SliderImage, Activity, Service, Room
 
 
 # Create your views here.
@@ -38,7 +38,9 @@ def activities(request):
 
 
 def rooms(request):
-    return render(request, 'quovadisapp/rooms.html')
+    rooms = Room.objects.all()
+    context = {"rooms": rooms}
+    return render(request, 'quovadisapp/rooms.html', context)
 
 
 def room_detail(request, room_id):
