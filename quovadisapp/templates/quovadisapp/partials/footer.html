@@ -1,0 +1,95 @@
+ {%load static%}
+ <!--================Footer Area =================-->
+        <footer class="footer_area">
+            <div class="footer_widget_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6">
+                            <aside class="f_widget about_widget">
+                                <img src="" alt="Logo">
+                                <div class="ab_wd_list">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>4, Tarkwa Close, Off Monrovia Street, Abuja, Nigeria</h4>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>+ (234) 92 918 113</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="book_now_area">
+                                    <a class="book_now_btn" href="{% url 'quovadisapp:contact' %}">Book now</a>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <aside class="f_widget link_widget">
+                                <div class="f_title">
+                                    <h3>Navigation</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="{% url 'quovadisapp:rooms' %}">Rooms</a></li>
+                                    <li><a href="{% url 'quovadisapp:activities' %}">Activities</a></li>
+                                    <li><a href="{% url 'quovadisapp:restaurant' %}">VII Bistro</a></li>
+                                    <li><a href="{% url 'quovadisapp:about' %}">About</a></li>
+                                    <li><a href="{% url 'quovadisapp:contact' %}">Contact</a></li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <aside class="f_widget link_widget">
+                                <div class="f_title">
+                                    <h3>Why us?</h3>
+                                </div>
+                                <ul>
+                                    <li><a>Free High Speed Wifi</a></li>
+                                    <li><a>Free Breakfast</a></li>
+                                    <li><a>Car Rental</a></li>
+                                    <li><a>Meeting Room</a></li>
+                                    <li><a href="{% url 'quovadisapp:about' %}">View more</a></li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <!--<div class="col-md-3 col-xs-6">-->
+                            <!--<aside class="f_widget instagram_widget">-->
+                                <!--<div class="f_title">-->
+                                    <!--<h3>Instagram</h3>-->
+                                <!--</div>-->
+                                <!--<ul class="instagram_list" id="instafeed"></ul>-->
+                            <!--</aside>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright_area">
+                <div class="container">
+                    <div class="pull-left">
+                        <h4>Copyright © Hotel Quo Vadis  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        <!--================Search Box Area =================-->
+        <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
+            <div class="search_box_inner">
+                <h3>Search</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--================End Search Box Area =================-->
+        <!--================End Footer Area =================-->

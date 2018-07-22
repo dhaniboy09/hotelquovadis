@@ -1,0 +1,101 @@
+{% extends 'quovadisapp/layout/base.html' %}
+{% load static %}
+{% block content %}
+    <body class="about">
+        <!--================Header Area =================-->
+        {% include 'quovadisapp/partials/header.html' %}
+        <!--================Header Area =================-->
+        
+        <!--================Banner Area =================-->
+        <section class="banner_area about_banner">
+            <div class="container">
+                <div class="banner_inner_content">
+                    <h3>About Us</h3>
+                </div>
+            </div>
+        </section>
+        <!--================End Banner Area =================-->
+        
+        <!--================Resort Story Area =================-->
+        <section class="introduction_area resort_story_area">
+            <div class="container">
+                <div class="row introduction_inner">
+                    <div class="col-md-5">
+                        <a href="#" class="introduction_img">
+                            <img src="{% static 'img/about.jpg' %}" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="introduction_left_text">
+                            <div class="resort_title">
+                                <h2>Hotel <span>Quo Vadis</span></h2>
+                                <h5></h5>
+                            </div>
+                            <h6>Hotel Quo Vadis promises a departure from the typical hotel room</h6>
+
+                            <p>
+                                Hotel Quo Vadis brings you into the world of chic design, detail and luxury.
+                                We offer a variety of rooms to our guests, from cosy singles and deluxe doubles to
+                                sumptuous suites. All of our rooms come with complimentary drinks, premium
+                                cable tv with over 250 channels and free high-speed wireless Internet.
+                            </p>
+                            <p>
+                                Hotel Quo Vadis is the ideal base for a
+                                stylish and comfotable stay in the everly growing and popular city of Abuja.
+                                Hotel Quo Vadis is the ideal base for a stylish and comfotable stay in the popular city
+                                of Abuja. We offer a variety of rooms, from cosy singles to sumptuous suites.
+                            </p>
+                            <a class="about_btn_b" href="{% url 'quovadisapp:contact' %}">contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Resort Story Area =================-->
+        
+        <!--================Choose Resot Area =================-->
+        <section class="choose_resot_area">
+            <div class="container">
+                <div class="center_title">
+                    <h2>why <span>Us?</span></h2>
+                    <p>Why choose Hotel Quo Vadis?</p>
+                </div>
+                <div class="row choose_resot_inner">
+                    <div class="col-md-5">
+                        <div class="resot_list">
+                            <ul>
+                                {% for service in services %}
+                                    <li><a><i class="fa fa-caret-right" aria-hidden="true"></i>{{service}}</a></li>
+                                {% endfor %}
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="choose_resot_slider owl-carousel">
+                            <div class="item">
+                                <img src="{% static 'img/about/gallery-01.jpg' %}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{% static 'img/about/gallery-02.jpg' %}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{% static 'img/about/gallery-03.jpg' %}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{% static 'img/about/gallery-04.jpg' %}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{% static 'img/about/gallery-05.jpg' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Choose Resot Area =================-->
+
+        <!--================End Fun Fact Area =================-->
+        {% include 'quovadisapp/partials/footer.html' %}
+    </body>
+{% endblock content %}

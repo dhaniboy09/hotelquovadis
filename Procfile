@@ -1,0 +1,1 @@
+web: gunicorn quovadisproject.wsgi --log-file -

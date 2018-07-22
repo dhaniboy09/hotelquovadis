@@ -1,0 +1,404 @@
+{% extends "quovadisapp/layout/base.html" %}
+{% load static %}
+{% load cloudinary %}
+{% load quovadis_extras %}
+
+{% block content %}
+    <body class="index">
+
+        <!--================Header Area =================-->
+        <header class="main_header_area">
+            {% include 'quovadisapp/partials/header_top.html' %}
+            <div class="header_menu">
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="{% static 'img/logo.gif' %}" alt="">
+                                <img src="{% static 'img/logo-sticky.gif' %}" alt="">
+                            </a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown submenu active">
+                                    <a href="{% url 'index' %}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="{% url 'quovadisapp:rooms' %}">Rooms</a></li>
+                                <li><a href="{% url 'quovadisapp:activities' %}">Activities</a></li>
+                                <li><a href="{% url 'quovadisapp:restaurant' %}">Restaurant &amp; Bar</a></li>
+                                <li><a href="{% url 'quovadisapp:about' %}">About</a></li>
+                                <li><a href="{% url 'quovadisapp:contact' %}">Contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </header>
+        <!--================Header Area =================-->
+        
+        <!--================Slider Area =================-->
+        <section class="main_slider_area">
+            <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
+                <ul>
+                    <li  data-transition="fade"
+                         data-slotamount="default"
+                         data-hideafterloop="0"
+                         data-hideslideonmobile="off"
+                         data-easein="default"
+                         data-easeout="default"
+                         data-masterspeed="300"
+                         data-thumb="{{ main_image.image.url }}"
+                         data-rotate="0"
+                         data-saveperformance="off"
+                         data-title="Creative"
+                         data-param1="01"
+                         data-param2=""
+                         data-param3=""
+                         data-param4=""
+                         data-param5=""
+                         data-param6=""
+                         data-param7=""
+                         data-param8=""
+                         data-param9=""
+                         data-param10=""
+                         data-description=""
+                    >
+                    <!-- MAIN IMAGE -->
+                    <img src="{{ main_image.image.url }}"  class="image" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="slider_text_box">
+                            <div class="tp-caption tp-resizeme first_text" 
+                            id="slide-1586-layer-1" 
+                            data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']"
+                            data-fontsize="['55','55','55','40','25']"
+                            data-lineheight="['59','59','59','50','35']"
+                            data-width="['550','550','550','550','300']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-type="text" 
+                            data-responsive_offset="on" 
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left']">{{ main_image.text }} </div>
+                            
+                            <div class="tp-caption tp-resizeme secand_text" 
+                                id="slide-1587-layer-2" 
+                                data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
+                                data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"
+                                data-fontsize="['28','28','28','28','20']"
+                                data-lineheight="['35','35','35','35']"
+                                data-width="['550','550','550','550','300']"
+                                data-height="none"
+                                data-whitespace="normal"
+                                data-type="text" 
+                                data-responsive_offset="on"
+                                data-transform_idle="o:1;"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            >
+                              {{ main_image.sub_text }}
+                            </div>
+                            
+                            <div class="tp-caption tp-resizeme slider_button" 
+                                id="slide-1588-layer-3" 
+                                data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
+                                data-y="['top','top','top','top']" data-voffset="['525','525','525','425','330']"
+                                data-fontsize="['14','14','14','14']"
+                                data-lineheight="['46','46','46','46']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="text" 
+                                data-responsive_offset="on" 
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
+                                <a class="slider_btn" href="#">Reserve now</a>
+                            </div>
+                        </div>
+                    </li>
+                    {% for item in secondary_images %}
+                        <li  data-transition="fade"
+                         data-slotamount="default"
+                         data-hideafterloop="0"
+                         data-hideslideonmobile="off"
+                         data-easein="default"
+                         data-easeout="default"
+                         data-masterspeed="300"
+                         data-thumb="{{ item.image.url }}"
+                         data-rotate="0"  data-saveperformance="off"
+                         data-title="Creative" data-param1="01"
+                         data-param2=""
+                         data-param3=""
+                         data-param4=""
+                         data-param5=""
+                         data-param6=""
+                         data-param7=""
+                         data-param8=""
+                         data-param9=""
+                         data-param10=""
+                         data-description=""
+                    >
+                    <!-- MAIN IMAGE -->
+                    <img src="{{ item.image.url }}"
+                         alt="" data-bgposition="center center"
+                         data-bgfit="cover"
+                         data-bgrepeat="no-repeat"
+                         data-bgparallax="5"
+                         class="rev-slidebg"
+                         data-no-retina
+                    >
+                    <!-- LAYERS -->
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="slider_text_box">
+                            <div class="tp-caption tp-resizeme first_text"
+                            id="slide-1589-layer-1"
+                            data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']"
+                            data-fontsize="['55','55','55','40','25']"
+                            data-lineheight="['59','59','59','50','35']"
+                            data-width="['630','630','630','630']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left']">{{ item.text }}</div>
+
+                            <div class="tp-caption tp-resizeme secand_text"
+                                id="slide-1590-layer-2"
+                                data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"
+                                data-fontsize="['28','28','28','28','20']"
+                                data-lineheight="['35','35','35','35']"
+                                data-width="['560','560','560','550','300']"
+                                data-height="none"
+                                data-whitespace="normal"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-transform_idle="o:1;"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            >
+                                {{ item.sub_text }}
+                            </div>
+
+                            <div class="tp-caption tp-resizeme slider_button"
+                                id="slide-1591-layer-3"
+                                data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['525','525','525','425','330']"
+                                data-fontsize="['14','14','14','14']"
+                                data-lineheight="['46','46','46','46']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
+                                <a class="slider_btn" href="#">Reserve now</a>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+        <!--================End Slider Area =================-->
+
+        <!--================Introduction Area =================-->
+        <section class="introduction_area">
+            <div class="container">
+                <div class="row introduction_inner">
+                    <div class="col-md-7">
+                        <div class="introduction_left_text">
+                            <div class="intro_title">
+                                <h2>Welcome to <span>Hotel Quo Vadis</span></h2>
+                                <p>Quo Vadis is a Latin phrase meaning, "Where are you going?"</p>
+                            </div>
+                            <p style="line-height: 28px">
+                                The answer to that question should be nothing other than…<strong>Hotel Quo Vadis</strong>!
+                                We are an ultra-modern,&nbsp;quaint, luxurious boutique hotel in Abuja, Nigeria offering
+                                19 guest rooms and suites to the discerning business or leisure traveller.
+                                Our convenient location within the heart of the City is both ideal and safe, with our
+                                focus being the comfort and enjoyment of our guests.
+{#                            </p>\r\n<p>\r\n	At Hotel Quo Vadis, you can expect</p>\r\n<ul>\r\n	<li>\r\n		Free WI-FI (high speed)</li>\r\n	<li>\r\n		Air Conditioning in all rooms and corridors</li>\r\n	<li>\r\n		Friendly and helpful staff</li>\r\n	<li>\r\n		Airport drop/pickup</li>\r\n	<li>\r\n		A fully equipped meeting room</li>\r\n	<li>\r\n		Complete bouquet DSTV Channels&nbsp;</li>\r\n	<li>\r\n		Day pass access to our partner Gym &amp; Spa</li>\r\n</ul>\r\n', NULL, 1, 0, 1, 0, 'Hotel in Abuja | Hotels in Wuse | Hotel Quo Vadis', #}
+{#                                'Hotel Quo Vadis is an ultra-modern, quaint, luxurious boutique hotel in Abuja, Our convenient location within the heart of the City is both ideal and safe#}
+                            </p>
+                            <a class="about_btn_b" href="{% url 'quovadisapp:about' %}">View More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="introduction_img">
+                            <img src="{% static 'img/introduction-img.jpg' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Introduction Area =================-->
+        
+        <!--================Explor Room Area =================-->
+        <section class="explor_room_area">
+            <div class="container">
+                <div class="explor_title row m0">
+                    <div class="pull-left">
+                        <div class="left_ex_title">
+                            <h2>Explore Our <span>rooms</span></h2>
+                            <p>choose room according to budget</p>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <a class="about_btn_b" href="{% url 'quovadisapp:rooms' %}">view all rooms</a>
+                    </div>
+                </div>
+                <div class="row explor_room_item_inner">
+                    {% for key, room in room_info.items %}
+                        <div class="col-md-4 col-sm-6">
+                            <div class="explor_item">
+                            <a href="{% url 'quovadisapp:room_detail' room.0.id %}" class="room_image">
+                                <img src="{{ room.1.image.url }}" width="370" height="247" alt="">
+                            </a>
+                            <div class="explor_text">
+                                <a href="{% url 'quovadisapp:room_detail' room.0.id %}"><h4>{{ room.0.name }}</h4></a>
+                                <ul>
+                                    <li><a>{{ room.0.services|slice_service:0 }},</a></li>
+                                    <li><a>{{ room.0.services|slice_service:1 }},</a></li>
+                                    <li><a>{{ room.0.services|slice_service:2 }}</a></li>
+                                </ul>
+                                <div class="explor_footer">
+{#                                    <div class="pull-left">#}
+{#                                        <h3>N170 <span>/ Night</span></h3>#}
+{#                                    </div>#}
+                                    <div class="pull-right">
+                                        <a class="book_now_btn" href="{% url 'quovadisapp:room_detail' room.0.id %}">
+                                            View details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <!--================End Explor Room Area =================-->
+        
+        <!--================Our Service Area =================-->
+        <section class="our_service_area">
+            <div class="container">
+                <div class="row our_service_inner">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="our_service_first">
+                            <h3>Why us?</h3>
+                            <p>At Hotel Quo Vadis, you can expect nothing short of world class service.
+                                Our rooms are state-of-the-art, equipped with luxury furniture, premium cable TV and much more. </p>
+                            <a class="all_s_btn" href="{% url 'quovadisapp:about' %}">view more</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="our_service_item">
+                            <i class="flaticon-wifi"></i>
+                            <h4>Free wifi</h4>
+                            <p>You'll enjoy free High speed WiFi. We hate to brag but it's one of the best in the City</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="our_service_item">
+                            <i class="flaticon-toaster"></i>
+                            <h4>Breakfast</h4>
+                            <p>Complementary breakfast to our esteemed guests. Enjoy free breakfast prepared by world-class chefs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="our_service_item">
+                            <i class="flaticon-taxi"></i>
+                            <h4>Car Rental</h4>
+                            <p>Need to get around the city? Or Need a ride to or from the airport? We've got you covered.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Our Service Area =================-->
+
+        <!--================Fun Fact Area =================-->
+        <section class="fun_fact_area">
+            <div class="container">
+                <div class="row">
+                    <div class="fun_fact_box row m0">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <h3 class="counter">19</h3>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Rooms</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <h3 class="counter">712</h3>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Total <br /> Guests</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <h3 class="counter">254</h3>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Int'l <br /> Guests</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="media">
+                                <div class="media-left">
+                                    <h3 class="counter">430</h3>
+                                </div>
+                                <div class="media-body">
+                                    <h4>five star <br /> ratings</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row fun_subscrib_inner">
+                    <div class="col-md-5">
+                        <div class="left_text_subs">
+                            <p>Enjoy a world of Relaxation and Tranquility at Hotel Quo Vadis. Ready to make a booking?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <a class="btn btn-default submit_btn"
+                                   href="{% url 'quovadisapp:contact' %}"
+                                   type="button"
+                                >
+                                    Contact Us
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Fun Fact Area =================-->
+        {% include 'quovadisapp/partials/footer.html'%}
+    </body>
+{% endblock content%}

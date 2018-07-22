@@ -1,0 +1,71 @@
+{% extends 'quovadisapp/layout/base.html' %}
+{% load static %}
+{% load quovadis_extras %}
+{% load cloudinary %}
+
+{% block content %}
+    <body class="rooms">
+
+        <!--================Header Area =================-->
+
+        {% include 'quovadisapp/partials/header.html' %}
+
+        <!--================Header Area =================-->
+        
+        <!--================Banner Area =================-->
+        <section class="banner_area">
+            <div class="container">
+                <div class="banner_inner_content">
+                    <h3>Rooms</h3>
+                </div>
+            </div>
+        </section>
+        <!--================End Banner Area =================-->
+        
+        <!--================Explor Room Area =================-->
+        <section class="explor_room_area explore_room_list">
+            <div class="container">
+                <div class="explor_title row m0">
+                    <div class="left_ex_title">
+                        <h2>Explore Our <span>rooms</span></h2>
+                        <p>choose from a variety of rooms</p>
+                    </div>
+                </div>
+                <div class="row explor_room_item_inner">
+                    {% for key, room in room_info.items %}
+                        <div class="col-md-4 col-sm-6">
+                        <div class="explor_item">
+                            <a href="{% url 'quovadisapp:room_detail' room.0.id %}" class="room_image">
+                                <img src="{{ room.1.0.image.url }}" width="370" height="247" alt="">
+                            </a>
+                            <div class="explor_text">
+                                <a href="{% url 'quovadisapp:room_detail' room.0.id %}"><h4>{{ room.0.name }}</h4></a>
+                                <ul>
+                                    <li><a href="#">{{ room.0.services|slice_service:0 }},</a></li>
+                                    <li><a href="#">{{ room.0.services|slice_service:1 }},</a></li>
+                                    <li><a href="#">{{ room.0.services|slice_service:2 }}</a></li>
+                                </ul>
+                                <div class="explor_footer">
+                                    <div class="pull-left">
+                                        <h3>N{{ room.0.price|format_price }}<span>/ Night</span></h3>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a class="book_now_btn"
+                                           href="{% url 'quovadisapp:room_detail' room.0.id %}"
+                                        >
+                                            View details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <!--================End Explor Room Area =================-->
+        
+       {% include 'quovadisapp/partials/footer.html' %}
+    </body>
+{% endblock content%}

@@ -1,0 +1,168 @@
+{% extends 'quovadisapp/layout/base.html' %}
+{% load static %}
+{% block content %}
+    <body class="restaurant">
+
+        <!--================Header Area =================-->
+        {% include 'quovadisapp/partials/header.html' %}
+        <!--================Header Area =================-->
+        
+        <!--================Banner Area =================-->
+        <section class="banner_area">
+            <div class="container">
+                <div class="banner_inner_content">
+                    <h3>VII Bistro</h3>
+                </div>
+            </div>
+        </section>
+        <!--================End Banner Area =================-->
+        
+        <!--================Special Dishes Area =================-->
+        <section class="special_dish_area">
+            <div class="container">
+                <div class="special_dish_inner_area">
+                    <div class="main_big_title">
+                        <h2>Explore <span>VII Bistro</span></h2>
+                        <p>
+                            In a bid to satisfy all culinary preferences and palates, we have an array of meals to
+                            complete your day. For a sumptuous and satisfying meal, come and be served at our memorable
+                            and inviting restaurant, <strong>The VII Bistro</strong>, a restaurant which maintains the luxurious
+                            contemporary feel of the Hotel.
+                            <br/><br/>
+                            The Rooftop Bar &amp; Lounge at VII Bistro are accessible to all our guests and make for an
+                            ideal place to relax and unwind. With an extensive wine and drinks menu we have something
+                            to suit every taste. Our word-class bar tenders are there to serve you while you have drink
+                            over a stunning view
+                        </p>
+                    </div>
+                    <div class="row special_dish_inner">
+                        <div class="col-md-3 col-xs-6">
+                            <div class="special_dish_item">
+                                <div class="dish_img">
+                                    <img src="{% static 'img/dish-1.jpg' %}" alt="">
+                                </div>
+                                <a href="#"><h4>Africa & beyond</h4></a>
+                                <p>A la Carte dishes that cut across Africa and other continents</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="special_dish_item">
+                                <div class="dish_img">
+                                    <img src="{% static 'img/dish-2.jpg' %}" alt="">
+                                </div>
+                                <a href="#"><h4>Highest Quality</h4></a>
+                                <p>Our ingredients are perfectly selected to maintain the highest quality </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="special_dish_item">
+                                <div class="dish_img">
+                                    <img src="{% static 'img/dish-3.jpg' %}" alt="">
+                                </div>
+                                <a href="#"><h4>Deserts</h4></a>
+                                <p>Exclusive and freshly made deserts</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <div class="special_dish_item">
+                                <div class="dish_img">
+                                    <img src="{% static 'img/dish-4.jpg' %}" alt="">
+                                </div>
+                                <a href="#"><h4>Roof Top Bar</h4></a>
+                                <p>The best cocktails in the city from reputable bar-tenders </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Special Dishes Area =================-->
+        
+        <!--================Our Menu Area =================-->
+        <section class="our_menu_area">
+            <div class="container">
+                <div class="our_menu_inner">
+                    <div class="left_ex_title">
+                        <h2>our <span>menu</span></h2>
+                        <p>Checkout Our Special Menu Price</p>
+                    </div>
+                    <div class="our_menu_list_inner">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#carrers1" aria-controls="carrers1" role="tab" data-toggle="tab">Break fast</a></li>
+                            <li role="presentation"><a href="#carrers2" aria-controls="carrers2" role="tab" data-toggle="tab">Lunch</a></li>
+                            <li role="presentation"><a href="#carrers3" aria-controls="carrers3" role="tab" data-toggle="tab">Dinner</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active fade in" id="carrers1">
+                                <div class="our_menu_tab_inner">
+                                    <ul>
+                                        <li>
+                                            <img src="{% static 'img/menu-banner.jpg' %}" alt="">
+                                            <h5>An excerpt of our breakfast menu</h5>
+                                        </li>
+                                        {% for item in breakfast %}
+                                            <li>
+                                            <div class="pull-left">
+                                                <h4>{{ item.name }}</h4>
+                                                <p>{{ item.description }}</p>
+                                            </div>
+                                            <div class="pull-right">
+                                                <h3></h3>
+                                            </div>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="carrers2">
+                                <div class="our_menu_tab_inner">
+                                    <ul>
+                                        <li>
+                                            <img src="{% static 'img/menu-banner.jpg' %}" alt="">
+                                            <h5>An excerpt of out lunch menu </h5>
+                                        </li>
+                                        {% for item in lunch %}
+                                            <li>
+                                                <div class="pull-left">
+                                                    <h4>{{ item.name }}</h4>
+                                                    <p>{{ item.description }}</p>
+                                                 </div>
+                                                <div class="pull-right">
+                                                    <h3></h3>
+                                                </div>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="carrers3">
+                                <div class="our_menu_tab_inner">
+                                    <ul>
+                                        <li>
+                                            <img src="{% static 'img/menu-banner.jpg' %}" alt="">
+                                            <h5>An excerpt of our dinner menu</h5>
+                                        </li>
+                                        {% for item in dinner %}
+                                            <li>
+                                                <div class="pull-left">
+                                                    <h4>{{ item.name }}</h4>
+                                                    <p>{{ item.description }}</p>
+                                                 </div>
+                                                <div class="pull-right">
+                                                    <h3></h3>
+                                                </div>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Our Menu Area =================-->
+
+        {% include 'quovadisapp/partials/footer.html' %}       
+    </body>
+{% endblock content %}

@@ -1,0 +1,655 @@
+[22/Jul/2018 00:48:32] INFO [django.server:124] "GET /qv/restaurant/ HTTP/1.1" 200 30691
+[22/Jul/2018 00:48:34] WARNING [django.request:93] Not Found: /static/img/favicon.png
+[22/Jul/2018 00:48:34] WARNING [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 404 96
+[22/Jul/2018 00:48:38] INFO [django.server:124] "GET /qv/about/ HTTP/1.1" 200 17776
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about.jpg HTTP/1.1" 404 94
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-01.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-02.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-02.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-03.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-03.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-04.jpg
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-05.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-04.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-05.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:38] WARNING [django.request:93] Not Found: /static/img/about/gallery-01.jpg
+[22/Jul/2018 00:48:38] WARNING [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:42] INFO [django.server:124] "GET /qv/about/ HTTP/1.1" 200 17776
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about.jpg
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about.jpg HTTP/1.1" 404 94
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about/gallery-01.jpg
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about/gallery-02.jpg
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about/gallery-02.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about/gallery-03.jpg
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about/gallery-04.jpg
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about/gallery-03.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:43] WARNING [django.request:93] Not Found: /static/img/about/gallery-05.jpg
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about/gallery-04.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:48:43] WARNING [django.server:124] "GET /static/img/about/gallery-05.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:12] INFO [django.server:124] "GET /qv/restaurant/ HTTP/1.1" 200 30691
+[22/Jul/2018 00:49:17] INFO [django.server:124] "GET /qv/about/ HTTP/1.1" 200 17776
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about.jpg
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-01.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about.jpg HTTP/1.1" 404 94
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-02.jpg
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-03.jpg
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-04.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-03.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-02.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-05.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-04.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-05.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-01.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-02.jpg
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-03.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-02.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-04.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-03.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.request:93] Not Found: /static/img/about/gallery-05.jpg
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-05.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:17] WARNING [django.server:124] "GET /static/img/about/gallery-04.jpg HTTP/1.1" 404 105
+[22/Jul/2018 00:49:18] INFO [django.server:124] "GET /qv/contact/ HTTP/1.1" 200 16427
+[22/Jul/2018 00:49:24] INFO [django.server:124] "GET /qv/rooms/ HTTP/1.1" 200 19624
+[22/Jul/2018 00:49:28] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:53:32] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:53:37] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/css/font-awesome.min.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 404 105
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/stroke-icon/style.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 404 110
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/flat-icon/flaticon.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 404 111
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/css/bootstrap.min.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 102
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/settings.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/layers.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 404 114
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/navigation.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 404 118
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/animate-css/animate.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 404 112
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/magnific-popup.css
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.css
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 404 142
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 404 121
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 404 128
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 404 122
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.css
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/css/style.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/css/responsive.css
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/css/style.css HTTP/1.1" 404 94
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 404 99
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/js/jquery-2.2.4.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 404 99
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/img/logo-sticky.gif
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 404 100
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:53:37] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:53:37] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:53:38] WARNING [django.request:93] Not Found: /static/img/favicon.png
+[22/Jul/2018 00:53:38] WARNING [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 404 96
+[22/Jul/2018 00:53:40] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/css/font-awesome.min.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 404 105
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/settings.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/stroke-icon/style.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 404 110
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/flat-icon/flaticon.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 404 111
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/css/bootstrap.min.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 102
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/layers.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 404 114
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/animate-css/animate.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 404 112
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/navigation.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 404 118
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/magnific-popup.css
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 404 121
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/css/style.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 404 128
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/css/responsive.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/css/style.css HTTP/1.1" 404 94
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.css
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 404 99
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 404 122
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 404 142
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.css
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/js/jquery-2.2.4.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 404 99
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/img/logo-sticky.gif
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 404 100
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:53:40] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:53:40] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:53:58] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/stroke-icon/style.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 404 110
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/css/font-awesome.min.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/layers.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/flat-icon/flaticon.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/css/bootstrap.min.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/settings.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 404 105
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 404 114
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 404 111
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 102
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/navigation.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 404 118
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/animate-css/animate.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 404 112
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/magnific-popup.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 404 121
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 404 122
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 404 142
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 404 128
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/css/style.css
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 404 116
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/css/responsive.css
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/js/jquery-2.2.4.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/css/style.css HTTP/1.1" 404 94
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 404 99
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 404 99
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/img/logo-sticky.gif
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 404 100
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:53:59] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:53:59] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:54:01] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/stroke-icon/style.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/css/font-awesome.min.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/flat-icon/flaticon.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 404 110
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 404 105
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/css/bootstrap.min.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/settings.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 404 116
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 102
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/layers.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 404 111
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/magnific-popup.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 404 114
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 404 121
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 404 122
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 404 142
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 404 128
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/css/responsive.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/navigation.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 404 116
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/css/style.css
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 404 118
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 404 99
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/css/style.css HTTP/1.1" 404 94
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/animate-css/animate.css
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/js/jquery-2.2.4.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 404 112
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 404 99
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/img/logo-sticky.gif
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 404 100
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:54:01] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:54:01] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:54:02] WARNING [django.request:93] Not Found: /static/img/favicon.png
+[22/Jul/2018 00:54:02] WARNING [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 404 96
+[22/Jul/2018 00:54:37] INFO [django.server:124] "GET /qv/rooms/ HTTP/1.1" 200 19624
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/flat-icon/flaticon.css
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/layers.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 404 114
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 404 111
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/navigation.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 404 118
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/animate-css/animate.css
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 404 112
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 404 122
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 404 142
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 404 128
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/css/font-awesome.min.css
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/stroke-icon/style.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 404 105
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/css/bootstrap.min.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 404 110
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/magnific-popup.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 404 102
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 404 121
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/css/settings.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 404 116
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/css/style.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 404 116
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/css/responsive.css
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/css/style.css HTTP/1.1" 404 94
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 404 99
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/js/jquery-2.2.4.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 404 99
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/js/bootstrap.min.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 404 100
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.tools.min.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 404 133
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/jquery.themepunch.revolution.min.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 404 138
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 404 149
+[22/Jul/2018 00:54:37] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.video.min.js
+[22/Jul/2018 00:54:37] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 404 147
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/img/logo-sticky.gif
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 404 100
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 404 156
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/magnify-popup/jquery.magnific-popup.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 404 152
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/isotope/imagesloaded.pkgd.min.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/isotope/isotope.pkgd.min.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/counterup/waypoints.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 404 131
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/counterup/jquery.counterup.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 404 116
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 404 122
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/owl-carousel/owl.carousel.min.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 404 121
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 404 141
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/bootstrap-selector/bootstrap-select.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 404 127
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/lightbox/simpleLightbox.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 404 119
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/instafeed/instafeed.min.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 404 115
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/vendors/instafeed/script.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 404 108
+[22/Jul/2018 00:54:38] WARNING [django.request:93] Not Found: /static/js/theme.js
+[22/Jul/2018 00:54:38] WARNING [django.server:124] "GET /static/js/theme.js HTTP/1.1" 404 92
+[22/Jul/2018 00:58:53] DEBUG [django.db.backends:111] (0.004) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[22/Jul/2018 00:58:53] DEBUG [django.db.backends:111] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[22/Jul/2018 00:59:09] DEBUG [django.db.backends:111] (0.007) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[22/Jul/2018 00:59:09] DEBUG [django.db.backends:111] (0.008) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[22/Jul/2018 00:59:13] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room"; args=()
+[22/Jul/2018 00:59:13] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2 LIMIT 1; args=(2,)
+[22/Jul/2018 00:59:13] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3 LIMIT 1; args=(3,)
+[22/Jul/2018 00:59:13] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4 LIMIT 1; args=(4,)
+[22/Jul/2018 00:59:13] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 1 LIMIT 1; args=(1,)
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /qv/rooms/ HTTP/1.1" 200 19624
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 200 1197
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 200 115261
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 122241
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 200 2941
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 200 29629
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 200 72259
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11276
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 200 146597
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 200 6437
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 200 4752
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 200 6951
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/css/style.css HTTP/1.1" 200 151666
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 200 32875
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 200 59576
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 200 2594
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37340
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 200 8901
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 200 86099
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 200 23869
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 62656
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 107526
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 200 28418
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 200 50176
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 200 26071
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 200 5441
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 200 34695
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 200 8044
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 200 39213
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 200 42854
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 200 5527
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 200 1940
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 200 33933
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 200 6210
+[22/Jul/2018 00:59:13] INFO [django.server:124] "GET /static/js/theme.js HTTP/1.1" 200 27581
+[22/Jul/2018 00:59:14] INFO [django.server:124] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[22/Jul/2018 00:59:14] INFO [django.server:124] "GET /static/img/banner.jpg HTTP/1.1" 200 320434
+[22/Jul/2018 00:59:15] INFO [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 200 1421
+[22/Jul/2018 00:59:23] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 2; args=(2,)
+[22/Jul/2018 00:59:23] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2; args=(2,)
+[22/Jul/2018 00:59:23] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:59:35] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 2; args=(2,)
+[22/Jul/2018 00:59:35] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2; args=(2,)
+[22/Jul/2018 00:59:35] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:59:36] INFO [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 200 1421
+[22/Jul/2018 00:59:38] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 2; args=(2,)
+[22/Jul/2018 00:59:38] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2; args=(2,)
+[22/Jul/2018 00:59:38] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/flat-icon/flaticon.css HTTP/1.1" 200 1197
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 122241
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/stroke-icon/style.css HTTP/1.1" 200 115261
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/css/settings.css HTTP/1.1" 200 29629
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/css/navigation.css HTTP/1.1" 200 59576
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/magnify-popup/magnific-popup.css HTTP/1.1" 200 6951
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.css HTTP/1.1" 200 2941
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/animate-css/animate.css HTTP/1.1" 200 72259
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css HTTP/1.1" 200 11276
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.css HTTP/1.1" 200 6437
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/css/layers.css HTTP/1.1" 200 146597
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.css HTTP/1.1" 200 4752
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/css/style.css HTTP/1.1" 200 151665
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/css/responsive.css HTTP/1.1" 200 32875
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37340
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/js/jquery-2.2.4.js HTTP/1.1" 200 86099
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 62656
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 107526
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.actions.min.js HTTP/1.1" 200 8901
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.video.min.js HTTP/1.1" 200 23869
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js HTTP/1.1" 200 28418
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/isotope/imagesloaded.pkgd.min.js HTTP/1.1" 200 5441
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js HTTP/1.1" 200 50176
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/revolution/js/extensions/revolution.extension.navigation.min.js HTTP/1.1" 200 26071
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/magnify-popup/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/isotope/isotope.pkgd.min.js HTTP/1.1" 200 34695
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/counterup/waypoints.min.js HTTP/1.1" 200 8044
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/owl-carousel/owl.carousel.min.js HTTP/1.1" 200 42854
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js HTTP/1.1" 200 39213
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/bootstrap-selector/bootstrap-select.js HTTP/1.1" 200 33933
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/lightbox/simpleLightbox.min.js HTTP/1.1" 200 5527
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/instafeed/instafeed.min.js HTTP/1.1" 200 6210
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/vendors/instafeed/script.js HTTP/1.1" 200 1940
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/js/theme.js HTTP/1.1" 200 27581
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/img/logo-sticky.gif HTTP/1.1" 200 2594
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/img/banner.jpg HTTP/1.1" 200 320434
+[22/Jul/2018 00:59:39] INFO [django.server:124] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[22/Jul/2018 00:59:40] INFO [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 200 1421
+[22/Jul/2018 01:00:18] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_activity"."id", "quovadisapp_activity"."name", "quovadisapp_activity"."description", "quovadisapp_activity"."image" FROM "quovadisapp_activity"; args=()
+[22/Jul/2018 01:00:18] INFO [django.server:124] "GET /qv/activities/ HTTP/1.1" 200 21090
+[22/Jul/2018 01:00:18] INFO [django.server:124] "GET /static/css/style.css HTTP/1.1" 304 0
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_sliderimage"."id", "quovadisapp_sliderimage"."tag", "quovadisapp_sliderimage"."image", "quovadisapp_sliderimage"."text", "quovadisapp_sliderimage"."sub_text" FROM "quovadisapp_sliderimage"; args=()
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" LIMIT 3; args=()
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2 LIMIT 1; args=(2,)
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3 LIMIT 1; args=(3,)
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4 LIMIT 1; args=(4,)
+[22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_sliderimage"."id", "quovadisapp_sliderimage"."tag", "quovadisapp_sliderimage"."image", "quovadisapp_sliderimage"."text", "quovadisapp_sliderimage"."sub_text" FROM "quovadisapp_sliderimage" WHERE NOT ("quovadisapp_sliderimage"."tag" = 'main'); args=('main',)
+[22/Jul/2018 01:00:22] INFO [django.server:124] "GET / HTTP/1.1" 200 43678
+[22/Jul/2018 01:00:22] INFO [django.server:124] "GET /static/img/logo.gif HTTP/1.1" 304 0
