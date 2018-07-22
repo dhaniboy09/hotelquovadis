@@ -653,3 +653,62 @@
 [22/Jul/2018 01:00:22] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_sliderimage"."id", "quovadisapp_sliderimage"."tag", "quovadisapp_sliderimage"."image", "quovadisapp_sliderimage"."text", "quovadisapp_sliderimage"."sub_text" FROM "quovadisapp_sliderimage" WHERE NOT ("quovadisapp_sliderimage"."tag" = 'main'); args=('main',)
 [22/Jul/2018 01:00:22] INFO [django.server:124] "GET / HTTP/1.1" 200 43678
 [22/Jul/2018 01:00:22] INFO [django.server:124] "GET /static/img/logo.gif HTTP/1.1" 304 0
+[22/Jul/2018 02:37:10] DEBUG [django.db.backends:111] (0.004) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+[22/Jul/2018 02:37:10] DEBUG [django.db.backends:111] (0.007) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_sliderimage"."id", "quovadisapp_sliderimage"."tag", "quovadisapp_sliderimage"."image", "quovadisapp_sliderimage"."text", "quovadisapp_sliderimage"."sub_text" FROM "quovadisapp_sliderimage"; args=()
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.007) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" LIMIT 3; args=()
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2 LIMIT 1; args=(2,)
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3 LIMIT 1; args=(3,)
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4 LIMIT 1; args=(4,)
+[22/Jul/2018 02:37:18] DEBUG [django.db.backends:111] (0.003) SELECT "quovadisapp_sliderimage"."id", "quovadisapp_sliderimage"."tag", "quovadisapp_sliderimage"."image", "quovadisapp_sliderimage"."text", "quovadisapp_sliderimage"."sub_text" FROM "quovadisapp_sliderimage" WHERE NOT ("quovadisapp_sliderimage"."tag" = 'main'); args=('main',)
+[22/Jul/2018 02:37:18] INFO [django.server:124] "GET / HTTP/1.1" 200 43678
+[22/Jul/2018 02:37:18] INFO [django.server:124] "GET /static/css/style.css HTTP/1.1" 304 0
+[22/Jul/2018 02:37:18] INFO [django.server:124] "GET /static/img/logo.gif HTTP/1.1" 304 0
+[22/Jul/2018 02:37:20] INFO [django.server:124] "GET /static/img/favicon.png HTTP/1.1" 200 1421
+[22/Jul/2018 02:37:32] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room"; args=()
+[22/Jul/2018 02:37:32] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2 LIMIT 1; args=(2,)
+[22/Jul/2018 02:37:32] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3 LIMIT 1; args=(3,)
+[22/Jul/2018 02:37:32] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4 LIMIT 1; args=(4,)
+[22/Jul/2018 02:37:32] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 1 LIMIT 1; args=(1,)
+[22/Jul/2018 02:37:32] INFO [django.server:124] "GET /qv/rooms/ HTTP/1.1" 200 19624
+[22/Jul/2018 02:37:32] INFO [django.server:124] "GET /static/img/banner.jpg HTTP/1.1" 200 320434
+[22/Jul/2018 02:37:33] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_activity"."id", "quovadisapp_activity"."name", "quovadisapp_activity"."description", "quovadisapp_activity"."image" FROM "quovadisapp_activity"; args=()
+[22/Jul/2018 02:37:33] INFO [django.server:124] "GET /qv/activities/ HTTP/1.1" 200 21090
+[22/Jul/2018 02:37:35] DEBUG [django.db.backends:111] (0.003) SELECT "quovadisapp_category"."id", "quovadisapp_category"."name" FROM "quovadisapp_category"; args=()
+[22/Jul/2018 02:37:35] DEBUG [django.db.backends:111] (0.014) SELECT "quovadisapp_menuitem"."id", "quovadisapp_menuitem"."name", "quovadisapp_menuitem"."description", "quovadisapp_menuitem"."price", "quovadisapp_menuitem"."category_id" FROM "quovadisapp_menuitem" WHERE "quovadisapp_menuitem"."category_id" = 1; args=(1,)
+[22/Jul/2018 02:37:35] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_menuitem"."id", "quovadisapp_menuitem"."name", "quovadisapp_menuitem"."description", "quovadisapp_menuitem"."price", "quovadisapp_menuitem"."category_id" FROM "quovadisapp_menuitem" WHERE "quovadisapp_menuitem"."category_id" = 2; args=(2,)
+[22/Jul/2018 02:37:35] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_menuitem"."id", "quovadisapp_menuitem"."name", "quovadisapp_menuitem"."description", "quovadisapp_menuitem"."price", "quovadisapp_menuitem"."category_id" FROM "quovadisapp_menuitem" WHERE "quovadisapp_menuitem"."category_id" = 3; args=(3,)
+[22/Jul/2018 02:37:35] INFO [django.server:124] "GET /qv/restaurant/ HTTP/1.1" 200 30691
+[22/Jul/2018 02:37:36] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_service"."id", "quovadisapp_service"."name", "quovadisapp_service"."description" FROM "quovadisapp_service"; args=()
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /qv/about/ HTTP/1.1" 200 17776
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about.jpg HTTP/1.1" 200 64452
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about/gallery-03.jpg HTTP/1.1" 200 42027
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about/gallery-05.jpg HTTP/1.1" 200 52178
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about/gallery-04.jpg HTTP/1.1" 200 140063
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about/gallery-02.jpg HTTP/1.1" 200 289876
+[22/Jul/2018 02:37:36] INFO [django.server:124] "GET /static/img/about/gallery-01.jpg HTTP/1.1" 200 457410
+[22/Jul/2018 02:37:38] INFO [django.server:124] "GET /qv/contact/ HTTP/1.1" 200 16427
+[22/Jul/2018 02:37:39] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room"; args=()
+[22/Jul/2018 02:37:40] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2 LIMIT 1; args=(2,)
+[22/Jul/2018 02:37:40] DEBUG [django.db.backends:111] (0.000) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3 LIMIT 1; args=(3,)
+[22/Jul/2018 02:37:40] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4 LIMIT 1; args=(4,)
+[22/Jul/2018 02:37:40] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 1 LIMIT 1; args=(1,)
+[22/Jul/2018 02:37:40] INFO [django.server:124] "GET /qv/rooms/ HTTP/1.1" 200 19624
+[22/Jul/2018 02:37:41] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 2; args=(2,)
+[22/Jul/2018 02:37:41] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 2; args=(2,)
+[22/Jul/2018 02:37:41] INFO [django.server:124] "GET /qv/rooms/2/ HTTP/1.1" 200 19802
+[22/Jul/2018 02:37:46] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 3; args=(3,)
+[22/Jul/2018 02:37:46] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 3; args=(3,)
+[22/Jul/2018 02:37:46] INFO [django.server:124] "GET /qv/rooms/3/ HTTP/1.1" 200 20178
+[22/Jul/2018 02:38:04] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 1; args=(1,)
+[22/Jul/2018 02:38:04] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 1; args=(1,)
+[22/Jul/2018 02:38:04] INFO [django.server:124] "GET /qv/rooms/1/ HTTP/1.1" 200 20437
+[22/Jul/2018 02:38:16] DEBUG [django.db.backends:111] (0.002) SELECT "quovadisapp_room"."id", "quovadisapp_room"."name", "quovadisapp_room"."description", "quovadisapp_room"."price", "quovadisapp_room"."services" FROM "quovadisapp_room" WHERE "quovadisapp_room"."id" = 4; args=(4,)
+[22/Jul/2018 02:38:16] DEBUG [django.db.backends:111] (0.001) SELECT "quovadisapp_roomimage"."id", "quovadisapp_roomimage"."tag", "quovadisapp_roomimage"."image", "quovadisapp_roomimage"."room_id" FROM "quovadisapp_roomimage" WHERE "quovadisapp_roomimage"."room_id" = 4; args=(4,)
+[22/Jul/2018 02:38:16] INFO [django.server:124] "GET /qv/rooms/4/ HTTP/1.1" 200 20996
