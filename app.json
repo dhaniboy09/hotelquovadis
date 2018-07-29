@@ -1,0 +1,44 @@
+{
+  "name": "hotelquovadis",
+  "scripts": {
+  },
+  "env": {
+    "DJANGO_DEBUG": {
+      "required": true
+    },
+    "QV_CLOUDINARY_API_KEY": {
+      "required": true
+    },
+    "QV_CLOUDINARY_API_SECRET": {
+      "required": true
+    },
+    "QV_CLOUDINARY_CLOUD_NAME": {
+      "required": true
+    },
+    "QV_DATABASE_NAME": {
+      "required": true
+    },
+    "QV_DATABASE_PASSWORD": {
+      "required": true
+    },
+    "QV_DATABASE_USER": {
+      "required": true
+    },
+    "QV_SECRET_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
