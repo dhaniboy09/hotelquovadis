@@ -1,7 +1,7 @@
 {
   "name": "hotelquovadis",
   "scripts": {
-    "postdeploy": "pg_dump -Fc $DATABASE_URL | pg_restore --clean --no-owner -n public -d $DATABASE_URL && bundle exec rails db:migrate"
+    "postdeploy": "pg_dump $DATABASE_URL | psql $DATABASE_URL && python manage.py migrate"
   },
   "env": {
     "DATABASE_URL": {
