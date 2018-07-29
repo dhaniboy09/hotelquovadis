@@ -1,8 +1,12 @@
 {
   "name": "hotelquovadis",
   "scripts": {
+    "postdeploy": "pg_dump $DATABASE_URL | psql $DATABASE_URL && bundle exec rake db:migrate"
   },
   "env": {
+    "DATABASE_URL": {
+      "required": true
+    },
     "QV_CLOUDINARY_API_KEY": {
       "required": true
     },
