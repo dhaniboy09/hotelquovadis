@@ -1,9 +1,10 @@
 {
   "name": "hotelquovadis",
   "scripts": {
+    "postdeploy": "echo $DATABASE_URL"
   },
   "env": {
-    "DJANGO_DEBUG": {
+    "DATABASE_URL": {
       "required": true
     },
     "QV_CLOUDINARY_API_KEY": {
