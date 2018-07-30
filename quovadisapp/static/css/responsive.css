@@ -592,6 +592,10 @@
     .middle_menu_area.affix .navbar.navbar-default .nav.navbar-nav > li > a {
         line-height: 45px;
     }
+    .mapframe {
+        width: 700;
+        height: 700;
+    }
 }
 @media(max-width: 767px){
 
@@ -810,6 +814,10 @@
     }
 }
 @media(max-width: 700px){
+    .mapframe {
+        width: 390;
+        height: 390;
+    }
     .book_table_inner .book_table_item {
         width: calc(100% / 1);
         margin-top: 15px;
@@ -864,6 +872,10 @@
     }
 }
 @media(max-width: 600px){
+    .mapframe {
+        width: 340;
+        height: 340;
+    }
     .header_top, .header_top_logo{
         display: none;
     }
