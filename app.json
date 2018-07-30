@@ -1,7 +1,7 @@
 {
   "name": "hotelquovadis",
   "scripts": {
-    "postdeploy": "pg_dump $DATABASE_URL | psql $DATABASE_URL && python manage.py migrate"
+    "postdeploy": "echo $DATABASE_URL"
   },
   "env": {
     "DATABASE_URL": {
