@@ -29,17 +29,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{% url 'index' %}">
                         <img src="{% static 'img/logo.png' %}" alt="Logo">
-                        <img src="{% static 'img/logo.png' %}" alt="">
+                        <img src="{% static 'img/logo.png' %}" alt="Logo">
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="index"><a href="{% url 'index' %}">Home</a></li>
-                        <li class="rooms"><a href="{% url 'quovadisapp:rooms' %}">Rooms</a></li>
+<!--                         <li class="index"><a href="{% url 'index' %}">Home</a></li>
+ -->                        <li class="rooms"><a href="{% url 'quovadisapp:rooms' %}">Rooms</a></li>
                         <li class="activities"><a href="{% url 'quovadisapp:activities' %}">Activities</a></li>
                         <li class="restaurant"><a href="{% url 'quovadisapp:restaurant' %}">Restaurant &amp; Bar</a></li>
                         <li class="about"><a href="{% url 'quovadisapp:about' %}">About</a></li>

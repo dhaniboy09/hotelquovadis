@@ -118,6 +118,10 @@
         position: relative;
         top: 17px;
     }
+    .mapframe {
+        width: 930;
+        height: 340;
+    }
 }
 @media(min-width: 1024px){
     .get_contact_inner .left_ex_title{
@@ -597,15 +601,29 @@
         height: 700;
     }
 }
-@media(max-width: 767px){
 
+@media(min-width: 767px){
+    .header_menu .navbar.navbar-default {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media(max-width: 767px){
+     .header_menu .navbar.navbar-default {
+        margin-bottom: 15px;
+    }
+    .room-img {
+      width: 800;
+      height: 265
+    }
     .right_event{
         max-width: 370px;
         margin: auto;
         padding-top: 30px;
     }
     .our_service_first{
-        min-height: 100%;
+        min-height: 15%;
     }
     .our_service_inner .our_service_first{
         max-width: 370px;
@@ -872,6 +890,10 @@
     }
 }
 @media(max-width: 600px){
+    .header_menu .navbar.navbar-default {
+        margin-bottom: -10px;
+        padding-top: 5px;
+    }
     .mapframe {
         width: 340;
         height: 340;

@@ -386,7 +386,7 @@ i:before {
   top: 0px;
   width: 100%;
   z-index: 22;
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .main_header_area.white_menu .header_top {
@@ -516,7 +516,7 @@ i:before {
 .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
   height: 85px;
   line-height: 75px;
-  padding: 0px 0px 0px 15px;
+  padding: 5px 0px 0px 15px;
 }
 
 .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
@@ -1524,6 +1524,11 @@ i:before {
   min-height: 100vh;
   background: url(../img/home-slider/slider-2.jpg) no-repeat scroll center center;
   background-size: cover;
+}
+
+.room-img {
+  width: 800;
+  height: 533
 }
 
 /* End Book Room Area css
