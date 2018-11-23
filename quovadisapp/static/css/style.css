@@ -2518,6 +2518,7 @@ i:before {
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
+  padding-bottom: 30px;
 }
 
 .explor_item .explor_text h4:hover {

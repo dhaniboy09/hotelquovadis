@@ -267,16 +267,8 @@
                             </a>
                             <div class="explor_text">
                                 <a href="{% url 'quovadisapp:room_detail' room.0.id %}"><h4>{{ room.0.name }}</h4></a>
-                                <ul>
-                                    <li><a>{{ room.0.services|slice_service:0 }},</a></li>
-                                    <li><a>{{ room.0.services|slice_service:1 }},</a></li>
-                                    <li><a>{{ room.0.services|slice_service:2 }}</a></li>
-                                </ul>
                                 <div class="explor_footer">
-{#                                    <div class="pull-left">#}
-{#                                        <h3>N170 <span>/ Night</span></h3>#}
-{#                                    </div>#}
-                                    <div class="pull-right">
+                                    <div class="pull-left">
                                         <a class="book_now_btn" href="{% url 'quovadisapp:room_detail' room.0.id %}">
                                             View details
                                         </a>

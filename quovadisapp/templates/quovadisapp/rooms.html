@@ -40,11 +40,11 @@
                             </a>
                             <div class="explor_text">
                                 <a href="{% url 'quovadisapp:room_detail' room.0.id %}"><h4>{{ room.0.name }}</h4></a>
-                                <ul>
+                                <!-- <ul>
                                     <li><a href="#">{{ room.0.services|slice_service:0 }},</a></li>
                                     <li><a href="#">{{ room.0.services|slice_service:1 }},</a></li>
                                     <li><a href="#">{{ room.0.services|slice_service:2 }}</a></li>
-                                </ul>
+                                </ul> -->
                                 <div class="explor_footer">
                                     <div class="pull-left">
                                         <h3>${{ room.0.price|format_price }}<span>/ Night</span></h3>
