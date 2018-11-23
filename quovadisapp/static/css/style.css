@@ -89,9 +89,7 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   color: #bd7e5e;
-  letter-spacing: .96px;
   position: relative;
-  padding-bottom: 15px;
 }
 
 .intro_title h2 span {
@@ -100,7 +98,6 @@ i:before {
 
 .intro_title h2:before {
   content: "";
-  background: #242424;
   width: 70px;
   height: 1px;
   position: absolute;
@@ -2287,6 +2284,7 @@ i:before {
 
 .introduction_inner .introduction_left_text .intro_title p {
   padding-bottom: 0px;
+  margin-top: -15px;
 }
 
 .introduction_inner .introduction_left_text h4 {
